@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,body {
+ height: 100%;
+ width: 100%;
+ font-size: 30px;
+ font-family: sans-serif;
+ background-color: rgb(9, 9, 9);
+ color: aliceblue;
+}
+
+#keyboard{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+table{
+    border:3px solid aliceblue;
+    text-align: center;
+}
+
+th,td{
+    padding: 15px;
+    border:2px solid aliceblue;
+}
